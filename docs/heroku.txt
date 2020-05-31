@@ -1,0 +1,21 @@
+1. Sign up on heroku
+2. install heroku cli - sudo snap install --classic heroku
+3. login to heroku - heroku login
+4. create an app
+5. create Procfile (how to run the app)
+6. commit all your local changes
+7. connect local repo to heroku app: heroku git:remote -a cam-node-chat-app  
+8. push to remote app - git push heroku master
+9. heroku logs --tail
+10. take PORT from env variable.
+Congrats you got your heroku app running
+
+-----other useful commands-----
+heroku auth:whoami
+heroku apps:info 
+heroku ps 
+heroku ps:scale web=1 -a <your app’s name>
+heroku create <app-name>
+heroku addons:add heroku-postgresql
+
+Enjoy!!!

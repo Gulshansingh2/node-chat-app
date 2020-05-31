@@ -1,0 +1,6 @@
+1. Build a docker image: docker build --tag node_chat_app:v1 .
+2. Run a docker image: docker run -p 5000:8080 -itd node_chat_app:v1
+3. See all running containers in docker: docker ps
+4. Stop a container: docker stop <container_id>
+5. Get app logs: docker logs <container_id>
+6. docker exec -it <container id> /bin/bash

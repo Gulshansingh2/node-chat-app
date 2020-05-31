@@ -14,6 +14,7 @@ socket.on('message', function(text) {
   if (!text) {
     return;
   }
+  console.log("message recieved: "+ text);
   var container = document.querySelector('section');
   var newMessage = document.createElement('p');
   newMessage.innerText = text;

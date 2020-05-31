@@ -1,0 +1,10 @@
+1. git init --> initialize your repo.
+2. git add */ git add <filename> --> Add one or more files to staging (index).
+3. git commit -m "Commit message" --> Commit changes.
+4. git push origin master --> Send changes to the master branch of your remote repository.
+5. git status --> List the files you've changed and those you still need to add or commit.
+6. git remote -v --> List all currently configured remote repo.
+7. git remote add origin <server> --> add remote repo to your local repo.
+8. git branch --> List all branches.
+9. git checkout -b <branch_name> --> create new branch.
+10. git chechout <branch_name> --> change branch.
